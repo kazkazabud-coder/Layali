@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt | Casino Šmak</title>
+  <meta name="description" content="Kontakt, mapa a rezervace stolu v Casino Šmak.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-in">
+    <a class="logo" href="index.html">Casino Šmak</a>
+    <nav aria-label="Hlavní navigace">
+      <ul>
+        <li><a href="index.html">Úvod</a></li>
+        <li><a href="rulety.html">Rulety</a></li>
+        <li><a href="o-nas.html">O nás</a></li>
+        <li><a href="kontakt.html" class="aktivni">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>Kontakt</h1>
+  <section class="dva-sloupce">
+    <div>
+      <h2>Najdete nás</h2>
+      <p><strong>Casino Šmak</strong><br>Hlavní 12<br>110 00 Praha 1</p>
+      <p>Tel.: <a href="tel:+420123456789">+420 123 456 789</a><br>E-mail: <a href="mailto:info@casinosmak.cz">info@casinosmak.cz</a></p>
+      <p>Po–Pá 11:00–22:00<br>So 12:00–23:00<br>Ne 12:00–20:00</p>
+    </div>
+    <!-- IFRAME: mapa. Odkaz vygenerujete na openstreetmap.org → Sdílet → Vložit HTML -->
+    <iframe title="Mapa s polohou restaurace" loading="lazy"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=14.4150%2C50.0840%2C14.4290%2C50.0900&amp;layer=mapnik&amp;marker=50.0870%2C14.4220"></iframe>
+  </section>
+  <section id="rezervace">
+    <h2>Rezervace stolu</h2>
+        <form action="mailto:info@casinosmak.cz" method="post" enctype="text/plain">
+      <label>Jméno<input type="text" name="jmeno" required></label>
+      <label>E-mail<input type="email" name="email" required></label>
+      <label>Datum<input type="date" name="datum" required></label>
+      <label>Počet osob
+        <select name="osoby"><option>1–2</option><option>3–4</option><option>5–8</option><option>9 a více</option></select>
+      </label>
+      <label>Poznámka<textarea name="poznamka" rows="3"></textarea></label>
+      <button class="tlacitko" type="submit">Odeslat rezervaci</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p><strong>Casino Šmak</strong> · Hlavní 12, 110 00 Praha 1</p>
+  <p>Tel. <a href="tel:+420123456789">+420 123 456 789</a> · <a href="mailto:info@casinosmak.cz">info@casinosmak.cz</a></p>
+  <p>Hrajte s chutí: u nás se nesází peníze, platí se jen za jídlo. Hosté do 18 let a řidiči mají nealko.</p>
+  <p>&copy; 2026 Casino Šmak · Školní projekt, fiktivní podnik</p>
+</footer>
+</body>
+</html>

@@ -1,39 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ronaldo</title>
-    <style>
-        p {
-            width:50%;
-            font-family: sans-serif;
-            float: left;
-            text-align: justify;
-            font-size: 15px;"
-            
-        }
-        img {
-            width: 150px;
-            float: right;
-        }
-        a {
-            float: left;
-            font-family: sans-serif;
-        }
-        </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Úvod | Casino Šmak</title>
+  <meta name="description" content="Restaurace ve stylu casina, kde si ruletou roztočíte ingredience svého jídla.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="color: red; font-family: sans-serif; text-align: center;">Cristiano Ronaldo</h1>
-    <hr>
-    <a href="http://životopis.html">vedlejsi</a>
-    <br>
-    <p><b><a href="https://cs.wikipedia.org/wiki/Cristiano_Ronaldo">Cristiano Ronaldo </a> je portugalský profesionální fotbalista, který hraje na pozici útočníka za saúdskoarabský klub Al-Nassr a za portugalský národní tým.</b><i>
-Cristiano Ronaldo dos Santos Aveiro (* 5. února 1985, Funchal, Madeira, Portugalsko) je portugalský profesionální fotbalista, který hraje na pozici útočníka za saúdskoarabský klub Al-Nassr a za portugalský národní tým. Je považován za jednoho z nejlepších fotbalistů všech dob a je držitelem mnoha individuálních ocenění, včetně pěti Zlatých míčů. Ronaldo je známý svou rychlostí, technikou, střeleckými schopnostmi a fyzickou kondicí. Během své kariéry hrál za několik prestižních klubů, včetně Manchester United, Real Madrid a Juventusu. Je také nejlepším střelcem v historii portugalského národního týmu a držitelem několika rekordů v Lize mistrů UEFA.
-Ronaldo je také známý svou charitativní činností a aktivním zapojením do různých sociálních projektů. Jeho vliv přesahuje fotbalový svět a stal se globální ikonou sportu a kultury.</i></p>
-    <img  src="ronaldo1.jpg" alt="Cristiano Ronaldo">
-    <img  src="ronaldo2.jpg" alt="Cristiano Ronaldo">
-    <img  src="ronaldo3.jpg" alt="Cristiano Ronaldo">
-    
+<header>
+  <div class="header-in">
+    <a class="logo" href="index.html">Casino Šmak</a>
+    <nav aria-label="Hlavní navigace">
+      <ul>
+        <li><a href="index.html" class="aktivni">Úvod</a></li>
+        <li><a href="rulety.html">Rulety</a></li>
+        <li><a href="o-nas.html">O nás</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <h1>Roztoč si večeři</h1>
+  <p>Ruleta vybere základ, maso i omáčku. Od klasiky po extrém, který ještě nikdo nedojedl.</p>
+  <a class="tlacitko" href="rulety.html">Zatočit ruletou</a>
+</section>
+<main>
+  <section>
+    <h2>Tři rulety, tři úrovně odvahy</h2>
+    <div class="mrizka">
+      <article class="karta"><a href="rulety.html#klasik" style="text-decoration:none;color:inherit"><img src="img/klasik.svg" alt="Klasické jídlo z ruletové kombinace" width="400" height="300"><div><h3>Klasik</h3><p>Brambory, kuřecí, smetanová omáčka. Jistá výhra pro každého.</p><p class="cena">249 Kč</p></div></a></article>
+      <article class="karta"><a href="rulety.html#odvazny" style="text-decoration:none;color:inherit"><img src="img/odvazny.svg" alt="Odvážné jídlo s kachnou a chilli medem" width="400" height="300"><div><h3>Odvážný</h3><p>Chobotnice s wasabi smetanou? Za to se platí odvahou.</p><p class="cena">349 Kč</p></div></a></article>
+      <article class="karta"><a href="rulety.html#extrem" style="text-decoration:none;color:inherit"><img src="img/extrem.svg" alt="Extrémní jídlo s cvrčky a pálivou omáčkou" width="400" height="300"><div><h3>Extrém</h3><p>Cvrčci, kimchi a Carolina Reaper. Jackpot jen pro statečné.</p><p class="cena">499 Kč</p></div></a></article>
+    </div>
+  </section>
+  <section>
+    <h2>Jak hra probíhá</h2>
+    <ol class="kroky">
+      <li><strong>Vyberte ruletu</strong><br>Klasik, Odvážný, nebo Extrém.</li>
+      <li><strong>Roztočte kola</strong><br>Každé určí jednu surovinu: základ, hlavní chod a omáčku.</li>
+      <li><strong>Řekněte číšníkovi</strong><br>Kuchyně uvaří přesně to, co padlo.</li>
+    </ol>
+  </section>
+  <section class="dva-sloupce">
+    <div>
+      <h2>Večer jako v Monte Carlu</h2>
+      <p>Interiér ve zlaté, rudé a sukně zelené, krupiéři v kuchyni a stoly, u kterých se každý večer něco slaví. Každá ruleta mění jídelní lístek, takže se tu stejný talíř nikdy nezopakuje.</p>
+      <p>Otevřeno: Po–Čt 16:00–23:00 · Pá–So 16:00–01:00 · Ne zavřeno</p>
+    </div>
+    <img src="img/interier.svg" alt="Interiér restaurace se zelenými stoly a ruletou" width="600" height="450">
+  </section>
+</main>
+<footer>
+  <p><strong>Casino Šmak</strong> · Hlavní 12, 110 00 Praha 1</p>
+  <p>Tel. <a href="tel:+420123456789">+420 123 456 789</a> · <a href="mailto:info@casinosmak.cz">info@casinosmak.cz</a></p>
+  <p>Hrajte s chutí: u nás se nesází peníze, platí se jen za jídlo. Hosté do 18 let a řidiči mají nealko.</p>
+  <p>&copy; 2026 Casino Šmak · Školní projekt, fiktivní podnik</p>
+</footer>
 </body>
 </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rulety | Casino Šmak</title>
+  <meta name="description" content="Roztočte ruletu a zjistěte, z jakých ingrediencí se uvaří vaše jídlo.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-in">
+    <a class="logo" href="index.html">Casino Šmak</a>
+    <nav aria-label="Hlavní navigace">
+      <ul>
+        <li><a href="index.html">Úvod</a></li>
+        <li><a href="rulety.html" class="aktivni">Rulety</a></li>
+        <li><a href="o-nas.html">O nás</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>Rulety</h1>
+  <p>Vyberte úroveň a roztočte tři kola. Co padne, to uvaříme.</p>
+  <div class="zalozky" role="group" aria-label="Výběr rulety">
+    <button type="button" data-tier="klasik" aria-pressed="true" data-popis="Klasik (249 Kč): jistota, kterou si dáte kdykoliv.">Klasik</button>
+    <button type="button" data-tier="odvazny" aria-pressed="false" data-popis="Odvážný (349 Kč): neobvyklé suroviny a výrazné chutě.">Odvážný</button>
+    <button type="button" data-tier="extrem" aria-pressed="false" data-popis="Extrém (499 Kč): hmyz, fermenty a pálivost na hraně. Jen pro statečné.">Extrém</button>
+  </div>
+  <p id="popis" aria-live="polite"></p>
+  <div class="stul">
+    <div id="kola"></div>
+    <div class="ovladani"><button type="button" id="toc" class="tlacitko">Roztočit ruletu</button></div>
+  </div>
+  <div id="vysledek" class="vysledek" aria-live="polite" hidden></div>
+  <section>
+    <h2>Pravidla hry</h2>
+    <ul>
+      <li>Každá ruleta určí tři suroviny: základ, hlavní surovinu a omáčku. Cena je pevná podle úrovně.</li>
+      <li>První přetočení je zdarma, každé další stojí 49 Kč. Co padne podruhé, to se vaří.</li>
+      <li>Klasik a Odvážný mají vegetariánskou surovinu v každém kole. Extrém vegetariánům nedoporučujeme.</li>
+      <li>O alergenech nás informujte předem. Extrém obsahuje hmyz, ryby a měkkýše.</li>
+      <li>Hrajeme jen o jídlo. Žádné sázky o peníze se u nás nepřijímají.</li>
+    </ul>
+  </section>
+</main>
+<script src="rulety.js"></script>
+<footer>
+  <p><strong>Casino Šmak</strong> · Hlavní 12, 110 00 Praha 1</p>
+  <p>Tel. <a href="tel:+420123456789">+420 123 456 789</a> · <a href="mailto:info@casinosmak.cz">info@casinosmak.cz</a></p>
+  <p>Hrajte s chutí: u nás se nesází peníze, platí se jen za jídlo. Hosté do 18 let a řidiči mají nealko.</p>
+  <p>&copy; 2026 Casino Šmak · Školní projekt, fiktivní podnik</p>
+</footer>
+</body>
+</html>
