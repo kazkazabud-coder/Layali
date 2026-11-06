@@ -1,0 +1,224 @@
+
+body{
+    font-family: 'Bodoni Moda', serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+#pozadi{
+    position: absolute;
+    inset: 0;
+    z-index: -1;       
+}
+#pozadi img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(48%);   
+}
+
+.logo img{
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #F5F3F1;   
+    font-size: 20px;
+    margin-left:40px;
+}
+
+#nav{
+    background-color: rgba(114, 114, 114, 0.664);
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    max-width: 1125px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:#F5F3F1 solid 0.1px;
+}
+
+.oznaceni{
+    border-bottom: 2px solid #F5F3F1;
+}
+
+#nav a:hover{
+    color:black;
+}
+
+.deko{
+    color: #F5F3F1; 
+    background-color:  rgba(114, 114, 114, 0.664);
+    border:#F5F3F1 solid 0.1px;
+    padding: 0.1px;
+    border-radius: 50px;
+    max-width: 200px;
+    font-size: 12px;
+    text-align: center;
+    
+
+}
+
+.hlv{
+    max-width: 1100px;
+    margin:auto;
+}
+
+#slogan h1{
+    color:#F5F3F1;
+    font-size: 70px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    max-width: 650px;
+
+}
+.slogan2 h2{  
+    margin-top:0;
+    font-size: 15px;
+    color:#acacac;
+    max-width: 400px;
+    
+}
+
+.tlk1{
+    display: flex;
+    gap:10px;
+    font-size: 20px;  
+    align-items: center;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.tlk2 p{
+    background-color: #F5F3F1;
+    padding:19px;
+    border-radius: 50px;
+    color:black;
+}
+
+.tlk3 p{
+    background-color: rgba(114, 114, 114, 0.765);
+    color:#F5F3F1;
+    padding:19px;
+    border-radius: 50px;
+}
+
+
+.hlv2{
+    max-width: 1000px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hlv2 h3{
+    font-size: 55px;
+    max-width: 10000px;
+}
+
+.hlv2 p{
+    text-align: justify;
+    font-size: 18px;
+    max-width: 400px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    max-width: 1000px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu h4{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.menu p{
+    font-size: 15px;
+
+}
+
+.cena p{
+    font-size: 21px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.info{
+    max-width: 1000px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info2 p{
+     font-family: 'Times New Roman', Times, serif;
+}
+
+iframe{
+    justify-content: center;
+    display: flex;
+    border:100px solid black;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.nad-cesta h1{
+    display: flex;
+    justify-content: center;
+    margin:70px;
+    
+}
+
+.cesta p{
+    text-align: justify;
+    max-width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.cesta {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+    align-items: center;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    border-top:3px solid  rgb(114, 114, 114);
+    padding: 10px;
+}
+footer a{
+    color:black;
+    text-decoration: none;
+}
