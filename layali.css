@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 #pozadi{
-    position: absolute;
+    position: fixed;
     inset: 0;
     z-index: -1;       
 }
@@ -216,9 +216,16 @@ footer{
     justify-content: center;
     gap:10px;
     border-top:3px solid  rgb(114, 114, 114);
-    padding: 10px;
+
 }
 footer a{
     color:black;
     text-decoration: none;
+}
+
+.foter{
+    color:#F5F3F1;
+}
+.foter a{
+    color:#F5F3F1;
 }
